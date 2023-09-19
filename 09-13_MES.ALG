@@ -1,16 +1,16 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 13/09/2023
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 mes:inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-escreva("Informe um número: ")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+escreva("Informe um nÃºmero: ")
 leia(mes)
 escreval("")
 
@@ -20,7 +20,7 @@ escreval("01 - JANEIRO")
 caso 2
 escreval("02 - FEVEREIRO")
 caso 3
-escreval("03 - MARÇO")
+escreval("03 - MARÃ‡O")
 caso 4
 escreval("04 - ABRIL")
 caso 5
@@ -40,7 +40,7 @@ escreval("11 - NOVEMBRO")
 caso 12
 escreval("12 - DEZEMBRO")
 outrocaso
-escreval(mes," não é um mês válido.")
+escreval(mes," nÃ£o Ã© um mÃªs vÃ¡lido.")
 fimescolha
 
 
