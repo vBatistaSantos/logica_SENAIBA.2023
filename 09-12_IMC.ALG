@@ -1,17 +1,17 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 12/09/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    imc, peso, altura: real
    classificacao:caracter
    invalido: logico
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
    escreva("Informe sua altura: ")
    leia(altura)
@@ -22,7 +22,7 @@ Inicio
    imc <-(peso/(altura*altura))
 
    se imc>=40 entao
-        classificacao <- "Obesidade grau III (mórbida)"
+        classificacao <- "Obesidade grau III (mÃ³rbida)"
    senao
 
       se imc >=35 entao
@@ -35,7 +35,7 @@ Inicio
             classificacao <-"Levemente acima do peso"
             senao
                se imc >=18.6 entao
-               classificacao <- "Peso ideal (parabéns)"
+               classificacao <- "Peso ideal (parabÃ©ns)"
                senao
                classificacao <-"Abaixo do peso"
                fimse
