@@ -1,17 +1,17 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 12/09/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    peso, altura: real
    sexo: caracter
    invalido: logico
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
    escreva("Informe sua altura: ")
    leia(altura)
@@ -36,7 +36,7 @@ Inicio
 
    enquanto invalido faca
 
-      escreval("Por favor, insira uma das opções abaixo: ")
+      escreval("Por favor, insira uma das opÃ§Ãµes abaixo: ")
       escreval("M - homem")
       escreval("F - mulher")
       leia (sexo)
@@ -54,7 +54,7 @@ Inicio
    
    fimse
 
-   escreval("Seu peso ideal é ",peso)
+   escreval("Seu peso ideal Ã© ",peso)
 
    //homem (72.7 *h) - 58
    //mulher (62.1 * h) - 44.7
