@@ -12,10 +12,12 @@ Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
    escreva("Informe o preco do produto: ")
    leia(preco)
+   escreval("")
    escreval("Escolha uma forma de pagamento: ")
    escreval("1 - Pagamento à vista")
    escreval("2 - Pagamento à prazo")
    leia(opcao)
+   escreval("")
 
    escolha opcao
    caso 1
@@ -25,8 +27,8 @@ Inicio
       escreva("Escolha o número de parcela (máximo de 6 parcelas):")
       leia(parcela)
       escreval("O valor de cada parcela é R$",(preco/parcela):3:2)
-      
    outrocaso
    fimescolha
+   
 
 Fimalgoritmo
