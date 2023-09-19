@@ -1,33 +1,33 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 13/09/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    lin:vetor[1..8] de caracter
    cod,i:inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
 
    lin[1]<- ("------------ M E N U -----------")
    lin[2]<-("")
-   lin[3]<-("CÓD       PRATO         VALOR   ")
+   lin[3]<-("CÃ“D       PRATO         VALOR   ")
    lin[4]<-("1      Picanha          R$ 25,00")
    lin[5]<-("2      Lasanha          R$ 20,00")
    lin[6]<-("3      Strogonoff       R$ 18,00")
    lin[7]<-("4      Bife Acebolado   R$ 15,00")
-   lin[8]<-("5      Pão com ovo      R$ 5,00")
+   lin[8]<-("5      PÃ£o com ovo      R$ 5,00")
 
    para i de 1 ate 8 faca
       escreval(lin[i])
    fimpara
    escreval("")
 
-   escreval("Digite o código do prato desejado:")
+   escreval("Digite o cÃ³digo do prato desejado:")
    leia(cod)
    escreval("")
 
@@ -38,7 +38,7 @@ Inicio
          escreval(lin[i])
       fimpara
       escreval("")
-      escreval("Por favor, insira um código válido:")
+      escreval("Por favor, insira um cÃ³digo vÃ¡lido:")
       leia(cod)
       escreval("")
    fimenquanto
@@ -54,7 +54,7 @@ Inicio
    caso 4
    escreval("Bife Acebolado   R$ 15,00")
    outrocaso
-   escreval("Pão com ovo      R$ 5,00")
+   escreval("PÃ£o com ovo      R$ 5,00")
    fimescolha
 
 
