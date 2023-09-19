@@ -1,32 +1,32 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 13/09/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    operacao,continuar:caracter
    resultado, n1,n2:real
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    continuar <- "y"
    enquanto continuar="y" faca
       limpatela
       
-      escreval("Informe dois números:")
+      escreval("Informe dois nÃºmeros:")
       leia(n1)
       escreva("")
       leia(n2)
       escreval("")
 
-      escreval("Informe a operação")
-      escreval("(+) - Adição")
-      escreval("(-) - Subtração")
-      escreval("(*) - Multiplicação")
-      escreval("(/) - Divisão")
+      escreval("Informe a operaÃ§Ã£o")
+      escreval("(+) - AdiÃ§Ã£o")
+      escreval("(-) - SubtraÃ§Ã£o")
+      escreval("(*) - MultiplicaÃ§Ã£o")
+      escreval("(/) - DivisÃ£o")
       leia(operacao)
       escreval("")
 
@@ -35,10 +35,10 @@ Inicio
 
          escreval("Por favor, insira um do simbolos abaixo:")
          escreval("")
-         escreval("(+) - Adição")
-         escreval("(-) - Subtração")
-         escreval("(*) - Multiplicação")
-         escreval("(/) - Divisão")
+         escreval("(+) - AdiÃ§Ã£o")
+         escreval("(-) - SubtraÃ§Ã£o")
+         escreval("(*) - MultiplicaÃ§Ã£o")
+         escreval("(/) - DivisÃ£o")
          leia(operacao)
          escreval("")
 
@@ -57,13 +57,13 @@ Inicio
 
       escreval(n1," ",operacao," ",n2," = ",resultado)
       escreval("")
-      escreval("Deseja realizar outra operação? y/n")
+      escreval("Deseja realizar outra operaÃ§Ã£o? y/n")
       leia(continuar)
       escreval("")
 
       enquanto (continuar<>"y") e (continuar<>"n") faca
 
-         escreval("Por favor, digite (y) para sim ou (n) para não:")
+         escreval("Por favor, digite (y) para sim ou (n) para nÃ£o:")
          leia(continuar)
          escreval("")
 
