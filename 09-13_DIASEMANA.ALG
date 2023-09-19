@@ -1,16 +1,16 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Antonio Carlos Nicolodi
-// DescriÁ„o   : Aqui vocÍ descreve o que o programa faz! (funÁ„o)
+// Descri√ß√£o   : Aqui voc√™ descreve o que o programa faz! (fun√ß√£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 13/09/2023
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    dia:inteiro
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
-   escreva("Insira um n˙mero inteiro: ")
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
+   escreva("Insira um n√∫mero inteiro: ")
    leia(dia)
    escreval("")
 
@@ -20,7 +20,7 @@ Inicio
    caso 2
       escreval("SEGUNDA  FIM DE SEMANA")
    caso 3
-      escreval("TER«A    FIM DE SEMANA")
+      escreval("TER√áA    FIM DE SEMANA")
    caso 4
       escreval("QUARTA   FIM DE SEMANA")
    caso 5
@@ -28,9 +28,9 @@ Inicio
    caso 6
       escreval("SEXTA    FIM DE SEMANA")
    caso 7
-      escreval("S¡BADO   FIM DE SEMANA")
+      escreval("S√ÅBADO   FIM DE SEMANA")
    outrocaso
-      escreval("DIA DA SEMANA INV¡LIDO")
+      escreval("DIA DA SEMANA INV√ÅLIDO")
    fimescolha
 
 Fimalgoritmo
