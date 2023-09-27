@@ -8,16 +8,21 @@ int main(){
 
     int n;
 
-    printf("Digite um numero: \n");
+    printf("Digite um numero: ");
     scanf("%d",&n);
     
     if (n>10)
     {
         printf("É MAIOR QUE 10");
     }
+    else if (n == 10)
+    {
+        printf("O NÚMERO É 10");
+    }
+    
     else
     {
-        printf("%d NÃO É MAIOR QUE 10", n);
+        printf("NÃO É MAIOR QUE 10");
     }
      
     return 0;
